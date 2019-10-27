@@ -1,0 +1,150 @@
+* {
+  font-family: Roboto, Arial, serif;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+}
+/* HEADER */
+
+.nav__wrapper {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 16px;
+  margin-bottom: 70px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+
+.nav__icon {
+  width: 18px;
+  height: 12px;
+  background-image: url(./assets/nav-icon.svg);
+}
+
+.nav__title {
+  flex-grow: 1;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.nav__menu {
+  width: 4px;
+  height: 16px;
+  background-image: url(./assets/nav-menu.svg);
+}
+
+/* MAIN */
+
+.main__wrapper {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* ASIDE  */
+
+.aside-panel {
+  min-width: 200px;
+  
+}
+
+.card {
+  color: gray;
+  padding: 12px 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+}
+
+.card__wrapper {
+  margin-bottom: 70px;
+}
+
+.card__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.card__item {
+  display: flex;
+  align-items: center;
+  padding: 12px 18px;
+  cursor: pointer;
+}
+
+.card__item:nth-child(2) {
+  border-bottom: #c5c5c5 1px solid;
+}
+
+.card__icon {
+  margin-right: 30px;
+}
+
+.circle-icon {
+  width: 20px;
+  height: 20px;
+  border: black 1px solid;
+  border-radius: 50%;
+}
+
+.circle-icon--current {
+  background-color: #C4C4C4;
+}
+
+.circle-icon--prev {
+  background-color: #41F795;
+}
+
+.circle-icon--red {
+  background-color: #F74141;
+}
+
+.circle-icon--blue {
+  background-color: #41B6F7;
+}
+
+/* CANVAS */
+
+.canvas__wrapper {
+  flex-grow: 1;
+  text-align: right;
+  padding-left: 20px;
+}
+
+.canvas {
+  background-color: lightgrey;
+}
+
+/* BUTTONS */
+
+.btn__wrapper {
+  margin: 18px 0;
+}
+
+.btn {
+  color: gray;
+  font-size: 12px;
+}
+
+.btn-item {
+  margin: 0 12px;
+  background-color: white;
+  text-decoration: none;
+  border: grey 1px solid;
+  display: inline-block;
+  cursor: pointer;  
+}
+
+.btn-item:last-child {
+  margin-right: 0;
+}
+
+.active {
+  background-color: grey;
+  color: white;
+}
