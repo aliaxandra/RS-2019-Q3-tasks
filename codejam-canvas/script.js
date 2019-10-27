@@ -25,7 +25,8 @@ function drawFirstImage() {
     }
   }
 
-  firstImageButton.classList.add("active")
+  firstImageButton.classList.add("active");
+  secondImageButton.classList.remove("active");
 }
 
 function RGBToHex(data) {
@@ -53,5 +54,6 @@ function drawSecondImage() {
       context.fillRect(i * 16, j * 16, 16, 16);
     }
   }
-
+  secondImageButton.classList.add("active");
+  firstImageButton.classList.remove("active");
 }
