@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Codejam Canvas</title>
+</head>
+<body>
+  <header class="nav__wrapper">
+    <nav class="nav">
+      <div class="nav nav__icon"></div>
+      <div class="nav nav__title">
+        <h1>CodeJam - Pallete</h1>
+      </div>
+      <div class="nav nav__menu"></div>      
+    </nav>
+  </header>
+  <main class="main__wrapper">
+    <aside class="aside-panel">
+      <section class="card__wrapper">
+        <div class="card card-tools">
+          <ul class="card__list">
+            <li class="card__item">
+              <img class="card__icon" src="./assets/icon-bucket.svg" alt="Paint bucket">
+              <span>Paint bucket</span>
+            </li>
+            <li class="card__item">
+              <img class="card__icon" src="./assets/icon-picker.svg" alt="Paint bucket">
+              <span>Paint bucket</span>
+            </li>
+            <li class="card__item">
+              <img class="card__icon" src="./assets/icon-move.svg" alt="Paint bucket">
+              <span>Paint bucket</span>
+            </li>
+            <li class="card__item">
+              <img class="card__icon" src="./assets/icon-transform.svg" alt="Paint bucket">
+              <span>Paint bucket</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="card__wrapper">
+        <div class="card card-colors">
+          <ul class="card__list">
+            <li class="card__item">
+              <div class="card__icon circle-icon circle-icon--current"></div>
+              <span>Paint bucket</span>
+            </li>
+            <li class="card__item">
+              <div class="card__icon circle-icon circle-icon--prev"></div>
+              <span>Paint bucket</span>
+            </li>
+            <li class="card__item">
+              <div class="card__icon circle-icon circle-icon--red"></div>
+              <span>Paint bucket</span>
+            </li>
+            <li class="card__item">
+              <div class="card__icon circle-icon circle-icon--blue"></div>
+              <span>Paint bucket</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </aside>
+    <section class="canvas__wrapper">
+      <div >
+        <canvas id="canvas" class="canvas" width="512" height="512"></canvas>
+      </div>
+      <div class="btn__wrapper">
+        <div class="btn">
+          <button class="btn btn-item active" id="4x4">4x4</button>
+          <button class="btn btn-item" id="32x32">32x32</button>
+          <button class="btn btn-item" id="rsschool">256x256</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
