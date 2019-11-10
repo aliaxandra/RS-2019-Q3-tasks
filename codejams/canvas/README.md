@@ -2,7 +2,7 @@
 
 1. **Task:** https://github.com/aliaxandra/tasks/blob/master/tasks/stage-2/codejam-canvas/codejam-canvas.md
 2. **Link:** http://aliaxandra.com/tasks/codejams/canvas/
-3. **Topics:** arrays, canvas, markup, json
+3. **Topics:** `arrays`, `canvas`, `markup`, `json`
 4. **Data:** 2019-10-27
 
 ## My evaluation
