@@ -1,0 +1,32 @@
+@mixin center {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+@mixin absolute-center {
+  position: absolute;
+  @include center;
+}
+
+@mixin container {
+  width: 86%;
+  min-width: 860px;
+}
+
+@mixin container-breakpoint {
+  width: 340px;
+  min-width: 340px;
+}
+
+@mixin flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@mixin flex-breakpoint {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
