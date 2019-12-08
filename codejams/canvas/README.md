@@ -21,4 +21,4 @@ Extra scope (**20**)
 - Dynamic canvas size switcher **10**
 
 Fine (**-5**)
-- half an hour late **-5**
+- Half an hour late **-5**
