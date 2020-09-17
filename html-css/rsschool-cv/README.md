@@ -1,1 +1,1 @@
-[Alexandra Sergeychik CV](https://aliaxandra.github.io/rsschool-cv/cv)
+
